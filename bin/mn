@@ -114,7 +114,7 @@ TESTS.update( all=allTest, none=nullTest, build=nullTest )
 
 # Map to alternate spellings of Mininet() methods
 ALTSPELLING = { 'pingall': 'pingAll', 'pingpair': 'pingPair',
-                'iperfudp': 'iperfUdp' }
+                'iperfudp': 'iperfUdp', 'iperfmulti': 'iperfMulti' }
 
 def runTests( mn, options ):
     """Run tests
